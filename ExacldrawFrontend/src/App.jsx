@@ -55,6 +55,7 @@ const App = () => {
       <div className="whiteboard-container">
         <Whiteboard selectedTool={selectedTool} penColor={penColor} />
       </div>
+      <div>Footer</div>
     </div>
   );
 };
